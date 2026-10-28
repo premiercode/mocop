@@ -1,0 +1,613 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Design preview: keep out of search engines until launch -->
+  <meta name="robots" content="noindex, nofollow">
+  <title>Mt. Olive Church of Plano | Uniting the Body of Christ</title>
+  <meta name="description" content="Mt. Olive Church of Plano (MOCOP) in Plano, Texas. Join us Sundays at 9:00 am, Wednesdays at 7:00 pm and Saturdays at 5:00 pm. God's Way. God's Love. God's Promises.">
+  <meta name="theme-color" content="#161b12">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..600&family=Instrument+Sans:ital,wght@0,400..700;1,400&display=swap">
+
+  <link rel="preload" as="image" href="assets/img/pastor-preaching.webp" fetchpriority="high">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Flag JS early so reveal styles only apply when JS can un-hide content -->
+  <script>document.documentElement.classList.add('js');</script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+
+<!-- ===================================================================
+     ICON SPRITE
+     =================================================================== -->
+<svg class="sprite" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+  <symbol id="i-olive" viewBox="0 0 48 48">
+    <path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" d="M8 42C16 34 24 22 40 6"/>
+    <path fill="currentColor" d="M14.5 33.5c-4.8.3-8.2-1.6-9.5-4.6 4.6-.6 8 .9 9.5 4.6Zm3.6-4.6c.4-4.8 3-7.7 6.2-8.4-.1 4.6-2.3 7.6-6.2 8.4Zm2.7-5.6c-4.7-.9-7.6-3.6-8.1-6.9 4.6.4 7.5 2.8 8.1 6.9Zm5.2-4.7c.9-4.7 3.8-7.3 7.1-7.6-.5 4.6-3.1 7.3-7.1 7.6Zm2.3-5.9c-4.6-1.3-7.2-4.3-7.4-7.6 4.5.8 7.2 3.5 7.4 7.6Z"/>
+    <ellipse cx="11.5" cy="38.5" rx="2.6" ry="3.4" transform="rotate(-35 11.5 38.5)" fill="currentColor" opacity=".55"/>
+  </symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M4 12h15m-6-6 6 6-6 6"/></symbol>
+  <symbol id="i-arrow-ne" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M7 17 17 7M8 7h9v9"/></symbol>
+  <symbol id="i-play" viewBox="0 0 24 24"><path fill="currentColor" d="M8 5.5v13a.8.8 0 0 0 1.2.7l10.2-6.5a.8.8 0 0 0 0-1.4L9.2 4.8A.8.8 0 0 0 8 5.5Z"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M12 21s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12Zm0-9.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M5 3h3.5l1.8 4.6-2.3 1.5a11 11 0 0 0 6.9 6.9l1.5-2.3L21 15.5V19a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2Z"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M3 5h18v14H3zm0 1 9 7 9-7"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18Zm0-13v4.5l3 2"/></symbol>
+  <symbol id="i-heart" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M12 20s-7.5-4.4-9-9.3C2 7.4 4.3 4.5 7.5 4.5c2 0 3.5 1.1 4.5 2.7 1-1.6 2.5-2.7 4.5-2.7 3.2 0 5.5 2.9 4.5 6.2C19.5 15.6 12 20 12 20Z"/></symbol>
+  <symbol id="i-radio" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M4 9h16v11H4zM7 9l10-5M8 14.5h.01M16 12.5a2 2 0 1 0 0 4 2 2 0 0 0 0-4Z"/></symbol>
+  <symbol id="i-book" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M12 6.5C10 5 7.5 4.5 4 4.5v14c3.5 0 6 .5 8 2 2-1.5 4.5-2 8-2v-14c-3.5 0-6 .5-8 2Zm0 0v14"/></symbol>
+  <symbol id="i-phone-app" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M7 2.5h10v19H7zM11 18.5h2"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" d="M3 7h18M3 12h18M3 17h12"/></symbol>
+  <symbol id="i-close" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" d="m5 5 14 14M19 5 5 19"/></symbol>
+  <symbol id="i-youtube" viewBox="0 0 24 24"><path fill="currentColor" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8C2 8.8 2 12 2 12s0 3.2.4 4.8a2.5 2.5 0 0 0 1.8 1.8C5.8 19 12 19 12 19s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8c.4-1.6.4-4.8.4-4.8s0-3.2-.4-4.8ZM10 15V9l5.2 3L10 15Z"/></symbol>
+  <symbol id="i-apple" viewBox="0 0 24 24"><path fill="currentColor" d="M16.4 12.6c0-2.4 2-3.6 2.1-3.7a4.6 4.6 0 0 0-3.6-1.9c-1.5-.2-3 .9-3.7.9-.8 0-2-.9-3.3-.8a4.9 4.9 0 0 0-4.1 2.5c-1.8 3-.5 7.6 1.3 10.1.8 1.2 1.8 2.6 3.1 2.5 1.2 0 1.7-.8 3.2-.8s1.9.8 3.2.8 2.2-1.2 3-2.4c.9-1.4 1.3-2.7 1.3-2.8 0 0-2.5-1-2.5-4.4ZM14 5.4c.7-.8 1.1-1.9 1-3-1 0-2.1.6-2.8 1.4-.6.7-1.2 1.8-1 2.9 1 .1 2.1-.5 2.8-1.3Z"/></symbol>
+  <symbol id="i-android" viewBox="0 0 24 24"><path fill="currentColor" d="M4.5 7.8 14 13.3l-2.4 2.4L4.5 7.8Zm-.4-2.6c.2-.1.5-.1.8.1L16 11.6l-2 2L4.1 5.2ZM3.6 6v12l6-6-6-6Zm.5 12.8 9.9-8.4 2 2-11.1 6.3c-.3.2-.6.2-.8.1Zm13-5.6-2.3-1.3 2.2-2.1 2.4 1.4c.9.5.9 1.4 0 1.9l-2.3.1Z"/></symbol>
+</svg>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ===================================================================
+     HEADER
+     =================================================================== -->
+<header class="site-header" data-header>
+  <div class="site-header__inner container">
+    <a class="brand" href="index.html" aria-label="Mt. Olive Church of Plano, home">
+      <svg class="brand__mark" aria-hidden="true"><use href="#i-olive"/></svg>
+      <span class="brand__text">
+        <span class="brand__name">Mt. Olive</span>
+        <span class="brand__sub">Church of Plano</span>
+      </span>
+    </a>
+
+    <nav class="site-nav" aria-label="Primary" data-nav id="site-nav">
+      <ul class="site-nav__list">
+        <li><a href="#visit">Plan a Visit</a></li>
+        <li><a href="#pastors">About</a></li>
+        <li><a href="#ministries">Ministries</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#watch">Watch</a></li>
+        <li class="site-nav__give-mobile"><a href="#give">Give</a></li>
+      </ul>
+    </nav>
+
+    <div class="site-header__actions">
+      <a class="btn btn--gold btn--sm" href="#give">Give</a>
+      <a class="menu-toggle" href="#site-nav" data-menu-toggle aria-controls="site-nav" aria-label="Menu">
+        <svg class="menu-toggle__open" aria-hidden="true"><use href="#i-menu"/></svg>
+        <svg class="menu-toggle__close" aria-hidden="true"><use href="#i-close"/></svg>
+      </a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- =================================================================
+       HERO
+       ================================================================= -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero__glow" aria-hidden="true"></div>
+    <div class="hero__inner container">
+      <div class="hero__copy">
+        <p class="eyebrow eyebrow--light" data-load="1">
+          <svg aria-hidden="true"><use href="#i-pin"/></svg>
+          Independence Parkway &middot; Plano, Texas
+        </p>
+        <h1 class="hero__title" id="hero-title" data-load="2">
+          Uniting the <em>Body&nbsp;of&nbsp;Christ.</em>
+        </h1>
+        <p class="hero__lede" data-load="3">
+          God&rsquo;s Way. God&rsquo;s Love. God&rsquo;s Promises. Come learn the Word of God, apply it to everyday life,
+          and walk with us. Wherever you&rsquo;re coming from, there&rsquo;s a seat saved for you.
+        </p>
+        <div class="hero__ctas" data-load="4">
+          <a class="btn btn--gold" href="#visit">Plan your visit <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          <a class="btn btn--ghost-light" href="#watch"><svg aria-hidden="true"><use href="#i-play"/></svg> Watch the latest message</a>
+        </div>
+
+        <div class="next-service" data-load="5" data-next-service>
+          <span class="next-service__pulse" aria-hidden="true"></span>
+          <div>
+            <p class="next-service__label" data-next-label>Join us this week</p>
+            <p class="next-service__when" data-next-when>Sun 9:00 am &middot; Wed 7:00 pm &middot; Sat 5:00 pm</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__art" aria-hidden="true">
+        <div class="arch arch--side arch--left" data-load="3">
+          <img src="assets/img/choir.webp" alt="" width="1400" height="1867">
+        </div>
+        <div class="arch arch--center" data-load="2">
+          <img src="assets/img/pastor-preaching.webp" alt="" width="1400" height="1867" fetchpriority="high">
+        </div>
+        <div class="arch arch--side arch--right" data-load="4">
+          <img src="assets/img/game-night-champions.webp" alt="" width="1400" height="1400">
+        </div>
+        <svg class="hero__ring" viewBox="0 0 200 200"><defs><path id="ring-path" d="M100 100m-78 0a78 78 0 1 1 156 0a78 78 0 1 1-156 0"/></defs><text><textPath href="#ring-path">GO THEREFORE AND MAKE DISCIPLES &middot; MATTHEW 28:19 &middot; </textPath></text></svg>
+      </div>
+    </div>
+
+    <!-- Service times strip -->
+    <div class="hero__strip">
+      <ul class="container times-strip" aria-label="Weekly service times">
+        <li><span class="times-strip__day">Sunday</span><span class="times-strip__time">9:00 am</span><span class="times-strip__what">Worship Service</span></li>
+        <li><span class="times-strip__day">Wednesday</span><span class="times-strip__time">7:00 pm</span><span class="times-strip__what">Mid-Week Service</span></li>
+        <li><span class="times-strip__day">Saturday</span><span class="times-strip__time">5:00 pm</span><span class="times-strip__what">Saturday Service</span></li>
+        <li class="times-strip__addr">
+          <a href="https://maps.google.com/?q=3269+Independence+Parkway+Plano+TX+75075" target="_blank" rel="noopener">
+            <svg aria-hidden="true"><use href="#i-pin"/></svg>
+            3269 Independence Pkwy, Plano TX 75075
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- =================================================================
+       WELCOME / PLAN A VISIT
+       ================================================================= -->
+  <section class="section visit" id="visit" aria-labelledby="visit-title">
+    <div class="container visit__grid">
+      <div class="visit__intro" data-reveal>
+        <p class="eyebrow">I&rsquo;m new here</p>
+        <h2 class="h2" id="visit-title">Everyone is welcome. <em>Really.</em></h2>
+        <p class="lead">
+          Mt. Olive Church of Plano is a place where people can meet Jesus, find life-giving community,
+          and discover their gifts and use them for God&rsquo;s glory. We love to have a good time.
+          We celebrate each other&rsquo;s victories and listen during the challenging times. No matter
+          the season, we go through it together.
+        </p>
+        <a class="link-arrow" href="https://maps.google.com/?q=3269+Independence+Parkway+Plano+TX+75075" target="_blank" rel="noopener">
+          Get directions <svg aria-hidden="true"><use href="#i-arrow-ne"/></svg>
+        </a>
+      </div>
+
+      <ol class="expect" data-reveal>
+        <li class="expect__item">
+          <span class="expect__num">01</span>
+          <div>
+            <h3>About 90 minutes</h3>
+            <p>Worship, prayer and a message from God&rsquo;s Word you can carry into Monday.</p>
+          </div>
+        </li>
+        <li class="expect__item">
+          <span class="expect__num">02</span>
+          <div>
+            <h3>Contemporary &amp; traditional</h3>
+            <p>A good mix of music led by our worship team. Sing out or soak it in.</p>
+          </div>
+        </li>
+        <li class="expect__item">
+          <span class="expect__num">03</span>
+          <div>
+            <h3>Something for the kids</h3>
+            <p>Childcare and MOCOP Kids Children&rsquo;s Church, led by children, for children.</p>
+          </div>
+        </li>
+        <li class="expect__item">
+          <span class="expect__num">04</span>
+          <div>
+            <h3>Stay for fellowship</h3>
+            <p>Plan to hang around after service. We&rsquo;d love to meet you.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- =================================================================
+       SCRIPTURE / MISSION
+       ================================================================= -->
+  <section class="mission" aria-labelledby="mission-title">
+    <div class="container mission__inner">
+      <svg class="mission__mark" aria-hidden="true"><use href="#i-olive"/></svg>
+      <h2 class="visually-hidden" id="mission-title">Our mission</h2>
+      <blockquote class="mission__quote" data-reveal>
+        <p>&ldquo;Go therefore and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit.&rdquo;</p>
+        <cite>Matthew 28:19</cite>
+      </blockquote>
+      <div class="mission__cols" data-reveal>
+        <div>
+          <h3 class="mission__label">The Mission</h3>
+          <p>The same mission Jesus gave His followers: make disciples of all nations.</p>
+        </div>
+        <div>
+          <h3 class="mission__label">The Vision</h3>
+          <p>A community of authentic believers, and a city transformed by the life-changing reality of the gospel as people come to know Jesus as Lord and Savior.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =================================================================
+       PASTORS
+       ================================================================= -->
+  <section class="section pastors" id="pastors" aria-labelledby="pastors-title">
+    <div class="container pastors__grid">
+      <figure class="pastors__photo" data-reveal>
+        <div class="arch arch--frame">
+          <img src="assets/img/pastors-fenceroy.webp" alt="Dr. Sam Fenceroy and Pastor Gloria Fenceroy standing together at Mt. Olive Church" width="1200" height="1601" loading="lazy">
+        </div>
+        <figcaption>Dr. Sam &amp; Pastor Gloria Fenceroy</figcaption>
+      </figure>
+
+      <div class="pastors__copy" data-reveal>
+        <p class="eyebrow">Meet our pastors</p>
+        <h2 class="h2" id="pastors-title">Called, <em>tested</em> and faithful.</h2>
+        <p class="lead">
+          Dr. Sam Fenceroy built a chain of twenty-three stores, then answered God&rsquo;s call to ministry.
+          Today he serves as Senior Pastor of Mt. Olive and a presbyter with Christ For The Nations&rsquo;
+          Fellowship of Ministries and Churches.
+        </p>
+        <p>
+          Pastor Gloria Fenceroy, Assistant Senior Pastor, gave thirty-eight years to Dallas ISD as a counselor and
+          is a licensed professional counselor. She leads our Women of Word ministry and the beloved Testimonial Tea.
+          Together they have four adult daughters.
+        </p>
+
+        <div class="on-air">
+          <p class="on-air__head"><svg aria-hidden="true"><use href="#i-radio"/></svg> Hear Pastor Fenceroy on the air</p>
+          <ul class="on-air__list">
+            <li>
+              <strong>Truth Made Simple</strong>
+              <span>Weekdays &middot; 5:25 pm &middot; KGGR 1040 AM</span>
+            </li>
+            <li>
+              <strong>Vision &amp; Truth Live</strong>
+              <span>Sundays &middot; 9:00 pm &middot; KWRD 100.7 FM</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =================================================================
+       WEEKLY RHYTHM
+       ================================================================= -->
+  <section class="section rhythm" aria-labelledby="rhythm-title">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <p class="eyebrow eyebrow--light">A week at Mt. Olive</p>
+        <h2 class="h2" id="rhythm-title">More than Sunday. <em>Every day</em> is a chance to grow.</h2>
+      </div>
+
+      <ol class="week" data-reveal data-week>
+        <li class="week__day" data-dow="0">
+          <span class="week__name">Sun</span>
+          <div class="week__slot"><b>9:00 am</b> Worship Service</div>
+        </li>
+        <li class="week__day" data-dow="1">
+          <span class="week__name">Mon</span>
+          <div class="week__slot"><b>6:00 am</b> Prayer Call</div>
+          <div class="week__slot"><b>7:00 pm</b> Seekers of Christ Bible Study <i>on Zoom</i></div>
+        </li>
+        <li class="week__day" data-dow="2">
+          <span class="week__name">Tue</span>
+          <div class="week__slot"><b>6:00 am</b> Prayer Call</div>
+        </li>
+        <li class="week__day" data-dow="3">
+          <span class="week__name">Wed</span>
+          <div class="week__slot"><b>6:00 am</b> Prayer Call</div>
+          <div class="week__slot"><b>6:00 pm</b> Corporate Prayer</div>
+          <div class="week__slot"><b>7:00 pm</b> Mid-Week Service</div>
+        </li>
+        <li class="week__day" data-dow="4">
+          <span class="week__name">Thu</span>
+          <div class="week__slot"><b>6:00 am</b> Prayer Call</div>
+        </li>
+        <li class="week__day" data-dow="5">
+          <span class="week__name">Fri</span>
+          <div class="week__slot"><b>6:00 am</b> Prayer Call</div>
+        </li>
+        <li class="week__day" data-dow="6">
+          <span class="week__name">Sat</span>
+          <div class="week__slot"><b>5:00 pm</b> Saturday Service</div>
+        </li>
+      </ol>
+
+      <div class="prayer-call" data-reveal>
+        <div class="prayer-call__icon"><svg aria-hidden="true"><use href="#i-phone"/></svg></div>
+        <div class="prayer-call__copy">
+          <h3>Start every weekday in prayer.</h3>
+          <p>Our 6:00 am prayer call runs Monday through Friday. Prayer requests are taken at 5:50 am.</p>
+        </div>
+        <a class="btn btn--gold" href="sms:+15162533431?&amp;body=Call%20Me">Text &ldquo;Call Me&rdquo; to (516) 253-3431</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- =================================================================
+       EVENTS
+       ================================================================= -->
+  <section class="section events" id="events" aria-labelledby="events-title">
+    <div class="container">
+      <div class="section-head section-head--split" data-reveal>
+        <div>
+          <p class="eyebrow">Announcements &amp; events</p>
+          <h2 class="h2" id="events-title">What&rsquo;s <em>coming up.</em></h2>
+        </div>
+        <p class="section-head__aside">Stay informed and bring a friend. There&rsquo;s always room at the table.</p>
+      </div>
+
+      <div class="events__grid">
+        <!-- PLACEHOLDER: event list should come from the church calendar -->
+        <article class="event-feature" data-reveal>
+          <div class="event-feature__img">
+            <img src="assets/img/light-up-the-night.webp" alt="MOCOP Kids presents Light Up the Night: a faith, fun and candy celebration for children and families" width="533" height="800" loading="lazy">
+          </div>
+          <div class="event-feature__body">
+            <p class="tag">MOCOP Kids &middot; Free</p>
+            <h3>Light Up the Night</h3>
+            <p>A safe, fun and faith-filled alternative to Halloween. Games, candy and Jesus lights for children and families. <em>Shine bright for Jesus!</em></p>
+            <dl class="event-meta">
+              <div><dt>Date</dt><dd><time datetime="2026-10-31">Saturday, October 31</time></dd></div>
+              <div><dt>Time</dt><dd>6:30 &ndash; 7:30 pm</dd></div>
+              <div><dt>Where</dt><dd>Mt. Olive Church of Plano</dd></div>
+            </dl>
+          </div>
+        </article>
+
+        <ul class="event-list">
+          <li class="event-row" data-reveal>
+            <time class="date-chip" datetime="2026-10-31"><span>Oct</span><b>31</b></time>
+            <div>
+              <h3>New Members Class</h3>
+              <p>9:00 am &middot; Take your next step and get to know the Mt. Olive family.</p>
+            </div>
+          </li>
+          <li class="event-row" data-reveal>
+            <time class="date-chip" datetime="2026-11-07"><span>Nov</span><b>7</b></time>
+            <div>
+              <h3>Men of MOCOP Meeting</h3>
+              <p>10:00 am &middot; 605 W 15th St, Plano. Setting the Standard together.</p>
+            </div>
+          </li>
+          <li class="event-row" data-reveal>
+            <time class="date-chip" datetime="2026-11-07"><span>Nov</span><b>7</b></time>
+            <div>
+              <h3>Grant Readiness Workshop</h3>
+              <p>8:30 am &ndash; 5:00 pm &middot; The MOCOP Center. Presented by Sis. Bell &amp; Pastor Shuler.</p>
+            </div>
+          </li>
+          <li class="event-row" data-reveal>
+            <time class="date-chip" datetime="2026-12-05"><span>Dec</span><b>5</b></time>
+            <div>
+              <h3>The Testimonial Tea</h3>
+              <p>Hosted by Pastor Gloria &amp; Women of Word. Powerful testimonies, exquisite teas, every first Saturday in June and December.</p>
+            </div>
+          </li>
+          <li class="event-row event-row--muted" data-reveal>
+            <span class="date-chip date-chip--icon" aria-hidden="true"><svg><use href="#i-heart"/></svg></span>
+            <div>
+              <h3>Baptism Sunday</h3>
+              <p>Held quarterly. Ready to tell the world you follow Jesus? Let us know.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- =================================================================
+       MINISTRIES
+       ================================================================= -->
+  <section class="section ministries" id="ministries" aria-labelledby="ministries-title">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <p class="eyebrow">Connect</p>
+        <h2 class="h2" id="ministries-title">Find your people. <em>Find your place.</em></h2>
+      </div>
+
+      <div class="bento">
+        <article class="tile tile--photo tile--kids" data-reveal>
+          <img src="assets/img/mocop-kids.webp" alt="Two smiling young people at a MOCOP Kids gathering" width="1200" height="1601" loading="lazy">
+          <div class="tile__body">
+            <p class="tile__kicker">Children</p>
+            <h3>MOCOP Kids</h3>
+            <p>&ldquo;Let the little children come to me.&rdquo; Safe, loved and trained in God&rsquo;s Word, with Children&rsquo;s Church led by kids.</p>
+          </div>
+        </article>
+
+        <article class="tile tile--photo tile--marriage" data-reveal>
+          <img src="assets/img/couple-1.webp" alt="A married couple from the MOCOP Marriage Ministry at game night" width="800" height="800" loading="lazy">
+          <div class="tile__body">
+            <p class="tile__kicker">Marriage Ministry &middot; 2nd, 3rd &amp; 4th Sundays, 11 am</p>
+            <h3>Marriage was God&rsquo;s idea.</h3>
+            <p>Strong marriages build strong families and strong communities. And yes, we have game nights.</p>
+          </div>
+        </article>
+
+        <article class="tile tile--type tile--women" data-reveal>
+          <p class="tile__kicker">Women of Word</p>
+          <h3>We are <em>better together.</em></h3>
+          <p>Leaving no woman behind. Sealed by God to serve, empower, love and encourage, with classes on purpose, destiny and healing.</p>
+        </article>
+
+        <article class="tile tile--type tile--men" data-reveal>
+          <p class="tile__kicker">Men of MOCOP</p>
+          <h3>Setting the <em>Standard.</em></h3>
+          <p>Men growing spiritually, working and playing together, and making a lasting impact on our community.</p>
+        </article>
+
+        <article class="tile tile--type tile--missions" data-reveal>
+          <p class="tile__kicker">Missions</p>
+          <h3>Bibles. Wells. <em>Churches.</em></h3>
+          <p>We&rsquo;re planting churches around the world and carrying the gospel to under-served, remote places.</p>
+        </article>
+
+        <article class="tile tile--type tile--study" data-reveal>
+          <p class="tile__kicker">Bible Study &middot; Mondays at 7</p>
+          <h3>Seekers of <em>Christ.</em></h3>
+          <p>An interactive Bible study you can join from anywhere on Zoom.</p>
+          <a class="link-arrow link-arrow--light" href="https://us02web.zoom.us/j/86336640993?pwd=Vt5jwyRWDFzrwUdXeZkM4L0XuexPjs.1" target="_blank" rel="noopener">Join on Zoom <svg aria-hidden="true"><use href="#i-arrow-ne"/></svg></a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- =================================================================
+       OUR STORY
+       ================================================================= -->
+  <section class="story" aria-labelledby="story-title">
+    <div class="container story__grid">
+      <div class="story__copy" data-reveal>
+        <p class="eyebrow eyebrow--light">Our story</p>
+        <h2 class="story__title" id="story-title">It all started in a <em>library</em> in Plano, Texas.</h2>
+        <p>
+          From those humble beginnings, God expanded the vision. Today, Mt. Olive is planting churches all over the world,
+          buying Bibles, digging wells and helping build sanctuaries so pastors and new believers have a place to worship.
+        </p>
+        <p>
+          And here at home, we still celebrate every new beginning. Water baptism is a public declaration that a new life
+          has begun. All who have received Jesus are welcome.
+        </p>
+        <a class="btn btn--ghost-light" href="#visit">Be part of the story <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      </div>
+      <div class="story__photos" data-reveal>
+        <figure class="story__photo story__photo--a">
+          <img src="assets/img/baptism.webp" alt="A new believer being baptized by Mt. Olive ministers" width="1400" height="1867" loading="lazy">
+        </figure>
+        <figure class="story__photo story__photo--b">
+          <img src="assets/img/communion.webp" alt="A minister and church member smiling together while preparing communion" width="1400" height="1050" loading="lazy">
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- =================================================================
+       WATCH
+       ================================================================= -->
+  <section class="section watch" id="watch" aria-labelledby="watch-title">
+    <div class="container">
+      <div class="section-head section-head--split" data-reveal>
+        <div>
+          <p class="eyebrow">Watch &amp; grow</p>
+          <h2 class="h2" id="watch-title">Can&rsquo;t make it in? <em>Church comes to you.</em></h2>
+        </div>
+        <p class="section-head__aside">Catch the latest message, browse the library, or join live on Sundays.</p>
+      </div>
+
+      <div class="watch__grid">
+        <div class="player" data-reveal data-player data-src="https://subsplash.com/u/-Q6ZBB8/media/embed/d/krvmgrc?&amp;info=0">
+          <img class="player__poster" src="assets/img/pastor-preaching.webp" alt="" width="1400" height="1867" loading="lazy">
+          <button class="player__btn" type="button" aria-label="Play the most recent 9 am service">
+            <span class="player__play"><svg aria-hidden="true"><use href="#i-play"/></svg></span>
+          </button>
+          <div class="player__meta">
+            <p class="tag tag--light">Most recent</p>
+            <h3>9 am Service</h3>
+            <p>Sermon series: <em>The Mulligan</em></p>
+          </div>
+        </div>
+
+        <ul class="resources">
+          <li data-reveal>
+            <a class="resource" href="https://youtube.com/@mtolivechurchofplano" target="_blank" rel="noopener">
+              <span class="resource__icon resource__icon--yt"><svg aria-hidden="true"><use href="#i-youtube"/></svg></span>
+              <span class="resource__text"><b>YouTube</b><span>Full services and sermon series</span></span>
+              <svg class="resource__go" aria-hidden="true"><use href="#i-arrow-ne"/></svg>
+            </a>
+          </li>
+          <li data-reveal>
+            <a class="resource" href="https://app.rightnowmedia.org/join/MountOliveChurchOfPlano" target="_blank" rel="noopener">
+              <span class="resource__icon"><svg aria-hidden="true"><use href="#i-book"/></svg></span>
+              <span class="resource__text"><b>RightNow Media</b><span>Free access to 25,000+ Bible study videos</span></span>
+              <svg class="resource__go" aria-hidden="true"><use href="#i-arrow-ne"/></svg>
+            </a>
+          </li>
+          <li class="app-card" data-reveal>
+            <span class="resource__icon"><svg aria-hidden="true"><use href="#i-phone-app"/></svg></span>
+            <div>
+              <b>The Mt. Olive app</b>
+              <p>Sermons, events and giving in your pocket.</p>
+              <div class="app-card__links">
+                <a href="https://itunes.apple.com/us/app/id6451456522?mt=8&amp;uo=4" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-apple"/></svg> App Store</a>
+                <a href="https://play.google.com/store/apps/details?id=com.subsplashconsulting.s_Q6ZBB8" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-android"/></svg> Google Play</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- =================================================================
+       GIVE
+       ================================================================= -->
+  <section class="give" id="give" aria-labelledby="give-title">
+    <div class="container give__inner" data-reveal>
+      <svg class="give__mark" aria-hidden="true"><use href="#i-olive"/></svg>
+      <h2 class="give__title" id="give-title">Your generosity <em>reaches the nations.</em></h2>
+      <p>Every gift supports ministry here in Plano and missions around the world: Bibles, wells and new churches.</p>
+      <a class="btn btn--gold btn--lg" href="https://subsplash.com/u/-Q6ZBB8/give" target="_blank" rel="noopener">Give online <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===================================================================
+     FOOTER
+     =================================================================== -->
+<footer class="site-footer">
+  <div class="container footer__top">
+    <div class="footer__brand">
+      <a class="brand brand--footer" href="index.html" aria-label="Mt. Olive Church of Plano, home">
+        <svg class="brand__mark" aria-hidden="true"><use href="#i-olive"/></svg>
+        <span class="brand__text">
+          <span class="brand__name">Mt. Olive</span>
+          <span class="brand__sub">Church of Plano</span>
+        </span>
+      </a>
+      <p>We look forward to seeing you soon. Visit us anytime. We would love to share the love of Christ with you!</p>
+    </div>
+
+    <div class="footer__col">
+      <h2 class="footer__head">Visit</h2>
+      <ul class="footer__list">
+        <li><a href="https://maps.google.com/?q=3269+Independence+Parkway+Plano+TX+75075" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-pin"/></svg><span>3269 Independence Parkway<br>Plano, TX 75075</span></a></li>
+        <li><a href="tel:+19726335511"><svg aria-hidden="true"><use href="#i-phone"/></svg><span>(972) 633-5511</span></a></li>
+        <li><a href="mailto:ministry@mocop.org"><svg aria-hidden="true"><use href="#i-mail"/></svg><span>ministry@mocop.org</span></a></li>
+      </ul>
+    </div>
+
+    <div class="footer__col">
+      <h2 class="footer__head">Service times</h2>
+      <dl class="footer__times">
+        <div><dt>Sunday</dt><dd>9:00 am</dd></div>
+        <div><dt>Wednesday</dt><dd>7:00 pm</dd></div>
+        <div><dt>Saturday</dt><dd>5:00 pm</dd></div>
+      </dl>
+    </div>
+
+    <div class="footer__col">
+      <h2 class="footer__head">Explore</h2>
+      <ul class="footer__list footer__list--plain">
+        <li><a href="#visit">I&rsquo;m New</a></li>
+        <li><a href="#pastors">Leadership</a></li>
+        <li><a href="#ministries">Ministries</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#watch">Media</a></li>
+        <li><a href="#give">Give</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container footer__bottom">
+    <p>&copy; <span data-year>2026</span> Mt. Olive Church of Plano. All rights reserved.</p>
+    <div class="footer__social">
+      <a href="https://youtube.com/@mtolivechurchofplano" target="_blank" rel="noopener" aria-label="Mt. Olive on YouTube"><svg aria-hidden="true"><use href="#i-youtube"/></svg></a>
+      <a href="mailto:ministry@mocop.org" aria-label="Email ministry@mocop.org"><svg aria-hidden="true"><use href="#i-mail"/></svg></a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
